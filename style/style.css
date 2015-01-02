@@ -29,7 +29,8 @@
 	color: #484848;
 	padding-top: 100px
 }
-/*#project-links h2:before {
+/*
+#project-links h2:before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -38,47 +39,8 @@
 	height: 84px;
 	background: url(assets/circle.png) no-repeat center top;
 	background-size: 84px 84px;
-}*/
-#project-links .icon-mdn h2{
-	position: relative;
-	top: 0;
-	left: 0;
-	content: '';
-	width: 100%;
-	height: 84px;
-	background: url(mdn.png) no-repeat center top;
-	background-size: 84px 84px;
 }
-#project-links .icon-wiki h2{
-	position: relative;
-	top: 0;
-	left: 0;
-	content: '';
-	width: 100%;
-	height: 84px;
-	background: url(wiki-moz.png) no-repeat center top;
-	background-size: 84px 84px;
-}
-#project-links .icon-hacks h2{
-	position: relative;
-	top: 0;
-	left: 0;
-	content: '';
-	width: 100%;
-	height: 84px;
-	background: url(hacks.png) no-repeat center top;
-	background-size: 84px 84px;
-}
-#project-links .icon-style-guide h2{
-	position: relative;
-	top: 0;
-	left: 0;
-	content: '';
-	width: 100%;
-	height: 84px;
-	background: url(mozilla.png) no-repeat center top;
-	background-size: 84px 84px;
-}
+*/
 #project-links a {
 	display: block;
 	padding: 0 50px;
@@ -148,4 +110,67 @@
 	margin: 10px auto 50px;
 	padding: 0px;
 	text-align: center;
+}
+
+.res_icon {
+	width:150px;
+	height:150px;
+	float:left;
+	margin:0 20px 20px 20px;
+}
+
+.wiki_icon {
+	background:url(../img/icon_wiki_moztn.png) no-repeat;
+	background-size:100px 100px;
+}
+
+.slides_icon {
+	background:url(../img/icon_slides2.png) no-repeat;
+	background-size:100px 100px;
+}
+
+.fob_icon {
+	background:url(../img/icon_fob.png) no-repeat;
+	background-size:100px 100px;
+}
+
+.sgtn_icon {
+	background:url(../img/icon_styleguide_moztn.png) no-repeat;
+	background-size:100px 100px;
+}
+
+.sub-titile {
+	color: #484848;
+	margin-top: 20px
+}
+
+.mdn_icon {
+	background: url(../img/icon_mdn.png) no-repeat center top;
+	background-size: 84px 84px;
+}
+
+.mwiki_icon {
+	background: url(../img/icon_wiki.png) no-repeat center top;
+	background-size: 84px 84px;
+}
+
+.hacks_icon {
+	background: url(../img/icon_hacks.png) no-repeat center top;
+	background-size: 84px 84px;
+}
+
+.sg_icon {
+	background: url(../img/icon_styleguide.png) no-repeat center top;
+	background-size: 84px 84px;
+}
+
+
+#project-links .mdn_icon .sg_icon .hack_icon .mwiki_icon h2:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 84px;
+
 }
